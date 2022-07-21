@@ -9,5 +9,5 @@
 <!--revolution slider setting css-->
 <link rel="stylesheet" href="{{ asset('assets/rs-plugin/css/settings.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/prettyPhoto.css') }}">
-<link rel="stylesheet" href="{{ asset('bonativo/css/my_style_v1.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/my_style_v1.css') }}">
 

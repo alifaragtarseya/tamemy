@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LangController;
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +17,5 @@ use App\Http\Controllers\LangController;
 Route::get('lang', [LangController::class,'index'])->name('lang.index');
 
 
-Route::get('/', function () {
-    return view('home.index');
-});
+Route::get('/', [HomeController::class,'index'])->name('home.index');
+Route::get('/contant', [HomeController::class,'contant'])->name('home.contant');

@@ -3,12 +3,13 @@ body,
 html {
     font-family: 'Tajawal', sans-serif !important;
 }
-.navbar-default .navbar-nav>li>a {
-    text-transform: lowercase !important;
-}
+
 .main-color{
     color: #7366ff !important;
    }
+.bg-main{
+    background-color:#7366ff !important;
+}
 img.logo {
     width: 80px;
 }

@@ -12,7 +12,7 @@ return [
 
     // slider 
     'welcome_to' => 'Welcome to',
-    'turky_al_tamimi' => ' Turky Al Tamimi ',
+    'turky_al_tamimi' => ' Turki Al-Tamimi Establishment ',
     'desc1' => 'Establishment for hotels management and Catering' ,
 
     // about us 
@@ -24,30 +24,29 @@ return [
                     - HADB financial Hotel
                     - HADB Press Hotel',
 
-    'resorts_desc' => 'تشغيل وتأسيس منتجعات.. تم تأسيس منتجع يتميز بعدة تصاميم عالمية بقلب العمارية يعكس عراقة التصميم النجدى ويتنوع بالتصاميم الأخرى لجذب السياح من خارج المملكة.
-                        - منتجع السلطان .
-                        - منتجع جوهرة الوصيل.',
+    'resorts_desc' => 'Operation and establishment of resorts .. A resort has been established characterized by several international designs in the heart of Al-Amariya, reflecting the antiquity of Najdi design and diversifying with other designs to attract tourists from outside the Kingdom. - Al-Sultan Resort. - Jawharat Al Wasil Resort.',
 
-    'marriage_and_conferene_halls_desc' => 'تتميز قاعات الزواجات والمؤتمرات لتوفير متلقى للمناسبات.
-                                         - قاعة فهدة للزواجات والمؤتمرات .',
+    'marriage_and_conferene_halls_desc' => 'Marriage and conference halls are distinguished to provide a forum for events. - Fahda Hall for weddings and conferences.',
 
-    'resturant_desc' => 'تم تأسيس عدة مطاعم لتمتد إلى سلسلة تشكل واجهه وخيار أول لمحبين المطاعم فى منطقة الرياض تم تطوير المجال ليستهدف جميع شرائح المجتمع والسياح من خارج المملكة.
-                        - مطعم ذا هاوس.
-                        - مطعم لفة ( ٣ فروع).
-                        - مطعم بوو( فرعين).
-                        - قهوة ويب( فرعين).
-                        -قهوة ومخبز ذا سلكشن.',
+    'resturant_desc' => 'Several restaurants were established to extend into a chain that forms a front and a first choice for restaurant lovers in the Riyadh region. The field was developed to target all segments of society and tourists from outside the Kingdom. - The House Restaurant. - Laffa Restaurant. - Boo Restaurant. - Wee coffee. - The Selection coffee and bakery.',
 
-    // 'catering_services_desc' => '',
-    'hotels' => 'مجال الفنادق',
-    'resorts' => 'مجال المنتجعات',
-    'catering_services' => 'مجال الإعاشات',
-    'resturant' => 'مجال المطاعم',
-    'marriage_and_conferene_halls' => 'قاعات الزواجات و المؤتمرات',
-    '' => '',
-    '' => '',
-    '' => '',
-    '' => '',
+    'catering_services_desc' => 'The catering services section is one of the cornerstones of what the Turki Al-Tamimi Foundation provides in the Kingdom and abroad. It is a highly experienced and trained business, formulating strategies throughout the region,',
+    'hotels' => 'Hotels Field',
+    'resorts' => 'Resorts Field',
+    'catering_services' => 'Catering Services Field',
+    'resturant' => 'Resturant Field',
+    'marriage_and_conferene_halls' => 'Marriage and Conference Halls',
+    'happy_client' => 'Happy Customer',
+    'services_count' => 'Servcies count',
+    'our_customer' => 'Our Customer',
+    'marriage_halls' => '',
+    'conferene_halls' => '',
+    'blogs' => 'Blogs',
+    'copyright' => 'All rights are save. Designed and Developed by Tarseya Company',
+    'clients' => 'Customers',
+    'name' => 'Name',
+    'email' => 'Email',
+    'message' => 'Message',
     '' => '',
     '' => '',
     '' => '',
