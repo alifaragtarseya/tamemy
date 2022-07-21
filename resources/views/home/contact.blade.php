@@ -1,3 +1,4 @@
+@php $dir2 = app()->getLocale() == 'ar' ? 'right' : 'left'; @endphp
 @extends('layouts.master')
 @section('title')
 {{ __('lang.contact') }}
@@ -68,7 +69,7 @@
                 </div>
                 <br><br>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6" style="float: {{ $dir2 }}">
                         <img src="{{ asset('assets/images/backgrounds/contact.png') }}" alt="">
                     </div>
                     <div class="col-sm-12 col-md-6" style="padding-top: 90px">
