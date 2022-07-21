@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+body,
+html {
+    font-family: 'Tajawal', sans-serif !important;
+}
+.navbar-default .navbar-nav>li>a {
+    text-transform: lowercase !important;
+}
+.main-color{
+    color: #7366ff !important;
+   }
+img.logo {
+    width: 80px;
+}
+.border-line{
+    background-color: #7366ff !important;
+}
+
+.fact-box h2 {
+    color: #7366ff;
+    font-size: 45px;
+}
+.lang-txt {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    padding: 0px !important;
+
+}
+.navbar-default .navbar-nav>li>a,.lang-txt {
+    font-family: 'Tajawal', sans-serif !important;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 15px;
+}
+@media (min-width: 768px){
+    .lang-txt {
+    color: #7366ff !important;
+}
+.lang-txt {
+    position: relative;
+    display: block;
+    padding: 0px 11px;
+}
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>li>a:hover,
+.lang-txt:hover, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #7366ff;
+    background-color: transparent;
+}
+
+.img-135{
+    width: 135px;;
+}
+
+.img-95{
+    width: 95px;;
+}
+
+.cta-bg {
+    background-color: #7366ff !important;
+    padding-top: 40px;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #bab5f7;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .pt-8{
+    padding-top: 8px;
+  }
