@@ -13,24 +13,24 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-{{ $dir2  }} scroll-to">
-                
+
                 @if (App::getLocale() != 'en')
                 <li>
-                    <a href="{{ route('lang.index')}}?lang=en" class="{{ (App::getLocale()  == 'en') ? 'active' : ''}}">
-                        <div class="lang {{ (App::getLocale()  == 'en') ? 'selected' : ''}}" data-value="en"><span class="lang-txt w3-text-black">{{ __('lang.en') }}</span><span> </span></div>
+                    <a href="{{ route('lang.index')}}?lang=en" class="{{ (App::getLocale()  == 'en') ? '' : ''}}">
+                        <div class="lang {{ (App::getLocale()  == 'en') ? '' : ''}}" data-value="en"><span class="lang-txt w3-text-black">{{ __('lang.en') }}</span><span> </span></div>
                     </a>
                 </li>
                 @endif
                 @if (App::getLocale() != 'ar')
                 <li>
-                    <a href="{{ route('lang.index')}}?lang=ar" class="{{ (App::getLocale()  == 'ar') ? 'active' : ''}}">
-                        <div class="lang {{ (App::getLocale()  == 'ar') ? 'selected' : ''}}" data-value="ar"><span class="lang-txt w3-text-black">{{ __('lang.ar') }}</span> <span></span></div>
+                    <a href="{{ route('lang.index')}}?lang=ar" class="{{ (App::getLocale()  == 'ar') ? '' : ''}}">
+                        <div class="lang {{ (App::getLocale()  == 'ar') ? '' : ''}}" data-value="ar"><span class="lang-txt w3-text-black">{{ __('lang.ar') }}</span> <span></span></div>
                     </a>
                 </li>
                 @endif
                 <li class="{{request()->routeIs('home.contant')  ? 'active' : ''}}"><a href="{{ url('/contant') }}">{{ __('lang.contact') }}</a></li>
 
-                <li><a href="#blog">{{ __('lang.blog') }}</a></li>
+                <li><a href="{{ url('/') }}#blog">{{ __('lang.blog') }}</a></li>
 
                 {{-- <li class="dropdown">
                     <a href="#services" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ __('lang.services') }} <span class="caret"></span></a>
@@ -39,9 +39,9 @@
 
                     </ul>
                 </li> --}}
-                <li><a href="#services">{{ __('lang.services') }} </a>
+                <li><a href="{{ url('/') }}#services">{{ __('lang.services') }} </a>
 
-                <li><a href="#about">{{ __('lang.about') }}</a></li>
+                <li><a href="{{ url('/') }}#about">{{ __('lang.about') }}</a></li>
                 <li class="{{request()->routeIs('home.index')  ? 'active' : ''}}"><a href="{{ url('/') }}">{{ __('lang.home') }}</a></li>
 
 
