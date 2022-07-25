@@ -11,3 +11,15 @@
 <link rel="stylesheet" href="{{ asset('assets/css/prettyPhoto.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/my_style_v1.css') }}">
 
+<style>
+    @font-face {
+        font-family: "arabfont";
+        src: url("{{ url('/assets/fonts/ArbFONTS-Changa-Medium.ttf') }}");
+        src: url("{{ url('/assets/fonts/ArbFONTS-Changa-Medium.ttf') }}") format("ttf");
+    }
+
+
+    *, h1, h2, h3, h4, h5, h6 {
+        font-family: 'arabfont', 'Changa';
+    }
+</style>

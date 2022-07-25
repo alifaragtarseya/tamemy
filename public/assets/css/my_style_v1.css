@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
 body,
 html {
-    font-family: 'Tajawal', sans-serif !important;
 }
 
 .main-color{
@@ -30,7 +29,6 @@ img.logo {
 
 }
 .navbar-default .navbar-nav>li>a,.lang-txt {
-    font-family: 'Tajawal', sans-serif !important;
     letter-spacing: 1px;
     font-weight: 700;
     font-size: 15px;
@@ -48,8 +46,8 @@ img.logo {
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>li>a:hover,
-.lang-txt:hover, 
-.navbar-default .navbar-nav>.active>a:focus, 
+.lang-txt:hover,
+.navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: #7366ff;
     background-color: transparent;
@@ -75,7 +73,7 @@ img.logo {
     height: 300px;
     perspective: 1000px;
   }
-  
+
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -85,11 +83,11 @@ img.logo {
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
-  
+
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
+
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -97,12 +95,12 @@ img.logo {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  
+
   .flip-card-front {
     background-color: #bbb;
     color: black;
   }
-  
+
   .flip-card-back {
     background-color: #bab5f7;
     color: white;

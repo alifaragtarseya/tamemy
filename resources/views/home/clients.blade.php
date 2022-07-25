@@ -49,14 +49,17 @@
             <div class="col-sm-12 col-md-6 col-lg-3 ">
                 <img src="{{ asset('assets/images/customer_logo/New Project (16).png') }}" style="max-width: 100%" alt="">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 ">
-                <img src="{{ asset('assets/images/customer_logo/New Project (17).png') }}" style="max-width: 100%" alt="">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 ">
-                <img src="{{ asset('assets/images/customer_logo/New Project (18).png') }}" style="max-width: 100%" alt="">
-            </div><div class="col-sm-12 col-md-6 col-lg-3 ">
-                <img src="{{ asset('assets/images/customer_logo/New Project (19).png') }}" style="max-width: 100%" alt="">
-            </div>
+            <!--
+                <div class="col-sm-12 col-md-6 col-lg-3 ">
+                    <img src="{{ asset('assets/images/customer_logo/New Project (17).png') }}" style="max-width: 100%" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ">
+                    <img src="{{ asset('assets/images/customer_logo/New Project (19).png') }}" style="max-width: 100%" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ">
+                    <img src="{{ asset('assets/images/customer_logo/New Project (18).png') }}" style="max-width: 100%" alt="">
+                </div>
+            -->
             <div class="col-sm-12 col-md-6 col-lg-3 ">
                 <img src="{{ asset('assets/images/customer_logo/New Project (20).png') }}" style="max-width: 100%" alt="">
             </div>
@@ -85,7 +88,7 @@
                 <img src="{{ asset('assets/images/customer_logo/New Project (28).png') }}" style="max-width: 100%" alt="">
             </div>
 
-            
+
         </div>
     </div>
 </section>

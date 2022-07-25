@@ -1,7 +1,9 @@
 <?php
 
 return [
-    // navbar 
+    // navbar
+    'hadb_najd' => 'hadb najd',
+    'hadb_najd_desc' => 'Hadab Najd Hall was designed with a modern design that expresses luxury Attention to the smallest details according to the highest standards At Hadab Najd Hall, we aim to create the best possible image to make your event unforgettable',
     'home' => 'Home',
     'about' => 'About us',
     'services' => 'Services',
@@ -10,14 +12,14 @@ return [
     'ar' => ' Ar',
     'en' => 'En',
 
-    // slider 
+    // slider
     'welcome_to' => 'Welcome to',
     'turky_al_tamimi' => ' Turki Al-Tamimi Establishment ',
     'desc1' => 'Establishment for hotels management and Catering' ,
 
-    // about us 
+    // about us
     'about_desc' => 'It  the most famous company in the field of hotel and catering services and then established with the aim of providing creative, innovative and inspiring concepts in line with the vision of the Kingdom of Saudi Arabia while creating job opportunities for all disciplines.. Since then, the company has grown significantly under the leadership of a highly experienced specialized team with international standards. What is the management of hotels, resorts and catering services?',
-    
+
     'we_have_the_best_services' => 'We have the best services',
 
     'hotel_desc' => 'Establishing and operating hotels..Our vision is to lead the industry in the kingdom of Suadi Arabia to provide higt quality accommo-dation,service and value in an attractive envi-ronment.. We seek to combine the scientific view of hospitality management wiht a commit-ment to innovation and excellent driven by tourists..Our services seek to create opportuni-ties for employess and partners Business devel-opment and growth.
