@@ -259,5 +259,67 @@
             
 
         </div>
+
+
+        <div class="row services ">
+
+            <div class="col-xs-12 col-md-6 style-div" style="float: {{ $dir_div }}">
+
+                <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel5" data-slide-to="1"></li>
+                        {{-- <li data-target="#myCarousel3" data-slide-to="2"></li>
+                        <li data-target="#myCarousel3" data-slide-to="3"></li> --}}
+                        {{-- <li data-target="#myCarousel3" data-slide-to="4"></li>
+                        <li data-target="#myCarousel3" data-slide-to="5"></li> --}}
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/1.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+                            {{-- <img src="" alt="Los Angeles" style="width:100%;"> --}}
+                        </div>
+
+                        <div class="item">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/2.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+                        </div>
+
+
+                        {{-- <div class="item">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/3.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+                        </div>
+                        <div class="item">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/4.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+                        </div> --}}
+                        {{-- <div class="item">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/hotel/5.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
+                        </div>
+                        <div class="item">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/hotel/6.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
+                        </div> --}}
+                    </div>
+
+                    
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 style-div ">
+                <br><br><br><br>
+                <div class="title w3-padding-top-64 w3-center">
+                    <h1 class="w3-text-grey w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.catering_services') }}</b></h1>
+                    <small>{{ __('lang.fields') }}</small>
+
+                </div>
+                <div class="desc w3-padding-top-32  w3-center ">
+                    <p class="lead">
+                        {{ __('lang.catering_services_desc') }}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
     </div>
 </section>
