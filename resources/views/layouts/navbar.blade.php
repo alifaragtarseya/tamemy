@@ -17,14 +17,14 @@
                 @if (App::getLocale() != 'en')
                 <li>
                     <a href="{{ route('lang.index')}}?lang=en" class="{{ (App::getLocale()  == 'en') ? '' : ''}}">
-                        <div class="lang {{ (App::getLocale()  == 'en') ? '' : ''}}" data-value="en"><span class="lang-txt w3-text-black">{{ __('lang.en') }}</span><span> </span></div>
+                        <div class="lang {{ (App::getLocale()  == 'en') ? '' : ''}}" data-value="en"><span class="lang-txt w3-text-black">EN</span><span> </span></div>
                     </a>
                 </li>
                 @endif
                 @if (App::getLocale() != 'ar')
                 <li>
                     <a href="{{ route('lang.index')}}?lang=ar" class="{{ (App::getLocale()  == 'ar') ? '' : ''}}">
-                        <div class="lang {{ (App::getLocale()  == 'ar') ? '' : ''}}" data-value="ar"><span class="lang-txt w3-text-black">{{ __('lang.ar') }}</span> <span></span></div>
+                        <div class="lang {{ (App::getLocale()  == 'ar') ? '' : ''}}" data-value="ar"><span class="lang-txt w3-text-black">ع</span> <span></span></div>
                     </a>
                 </li>
                 @endif
