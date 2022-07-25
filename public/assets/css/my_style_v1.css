@@ -110,3 +110,19 @@ img.logo {
   .pt-8{
     padding-top: 8px;
   }
+.services{
+    background:#f3f6f8 !important;
+}
+
+.desc{
+    padding: 90px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: 0px !important;
+}
+
+.style-div{
+    padding-right: 15px;
+    padding-left: 0px !important;
+}

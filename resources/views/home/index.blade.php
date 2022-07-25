@@ -66,45 +66,7 @@
 @include('home.about_us')
 <!--about section end-->
 
-<div class="funfacts parallax-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 margin-bottom30 text-center">
-                <div class="fact-box">
-                    <h2>654</h2>
-                    <h5>{{ __('lang.happy_client') }}</h5>
-                    <span class="border-line"></span>
-                </div>
-            </div>
-            <!--fact cols-->
-            <div class="col-sm-4 margin-bottom30 text-center">
-                <div class="fact-box">
-                    <h2>832</h2>
-                    <h5>{{ __('lang.services_count') }}</h5>
-                    <span class="border-line"></span>
-                </div>
-            </div>
-            <!--fact cols-->
-            <div class="col-sm-4 margin-bottom30 text-center">
-                <div class="fact-box">
-                    <h2>24</h2>
-                    <h5>{{ __('lang.our_customer') }} </h5>
-                    <span class="border-line"></span>
-                </div>
-            </div>
-            <!--fact cols-->
-            {{-- <div class="col-sm-3 margin-bottom30 text-center">
-                <div class="fact-box">
-                    <h2>750</h2>
-                    <h5>Cups of coffee</h5>
-                    <span class="border-line"></span>
-                </div>
-            </div> --}}
-            <!--fact cols-->
 
-        </div>
-    </div>
-</div>
 
 @include('home.services')
 <!--services section end-->
@@ -119,7 +81,6 @@
         </a>
     </div>
 </div>
-
 
 <section id="blog" class="section-padding">
     <div class="container">
@@ -238,7 +199,45 @@
 
    
 </section>
+<div class="funfacts parallax-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 margin-bottom30 text-center">
+                <div class="fact-box">
+                    <h2>654</h2>
+                    <h5>{{ __('lang.happy_client') }}</h5>
+                    <span class="border-line"></span>
+                </div>
+            </div>
+            <!--fact cols-->
+            <div class="col-sm-4 margin-bottom30 text-center">
+                <div class="fact-box">
+                    <h2>832</h2>
+                    <h5>{{ __('lang.services_count') }}</h5>
+                    <span class="border-line"></span>
+                </div>
+            </div>
+            <!--fact cols-->
+            <div class="col-sm-4 margin-bottom30 text-center">
+                <div class="fact-box">
+                    <h2>24</h2>
+                    <h5>{{ __('lang.our_customer') }} </h5>
+                    <span class="border-line"></span>
+                </div>
+            </div>
+            <!--fact cols-->
+            {{-- <div class="col-sm-3 margin-bottom30 text-center">
+                <div class="fact-box">
+                    <h2>750</h2>
+                    <h5>Cups of coffee</h5>
+                    <span class="border-line"></span>
+                </div>
+            </div> --}}
+            <!--fact cols-->
 
+        </div>
+    </div>
+</div>
 @include('home.clients')
 <!--news section end-->
 
