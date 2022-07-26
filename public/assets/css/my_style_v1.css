@@ -3,6 +3,13 @@
 body,
 html {}
 
+.second-color {
+    color: #c7d4dc !important;
+}
+.second-bg{
+    background-color: #c7d4dc !important;
+}
+
 .main-color {
     color: lightgrey !important;
 }
@@ -187,7 +194,7 @@ padding-top: 30px;
 /***********************  our customer styles   *****************************/
 .left-border-item { 
     width: 3px;
-    background-color: black;
+    background-color: #a4bac7;
     border-radius: 8px;
     height: 100%;
     transition: all 0.5s ease-in-out;
@@ -210,4 +217,52 @@ padding-top: 30px;
 
 .owl-carousel {
     direction: ltr!important;
+}
+
+
+.footer {
+    height: 400px;
+    background-image: url(/assets/images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.footer-container {
+    background-color: rgb(0 0 0 / 24%);
+    height: 100%;
+}
+
+.footer-nav ul li {
+    border: none!important;
+    margin-left: 130px !important;
+    color: gray;
+}
+.footer-nav ul li:hover a{
+    background-color: transparent !important;
+    color: #fff;
+}
+.footer-nav  .navbar-nav>.active>a{
+    color: #000 !important;
+}
+
+
+.left-border-ser { 
+    width: 50px;
+    background-color: #a4bac7;
+    border-radius: 8px;
+    height: 160%;
+    transition: all 0.5s ease-in-out;
+}
+.right-border-ser { 
+    width: 50px;
+    background-color: #a4bac7;
+    border-radius: 8px;
+    height: 160%;
+    transition: all 0.5s ease-in-out;
+}
+
+.style-div:hover .border-item-ser{ 
+    height: 100px;
+    top:50%;
 }

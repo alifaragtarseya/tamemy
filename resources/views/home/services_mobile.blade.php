@@ -25,7 +25,9 @@
                 <div class="desc  w3-center ">
                     <p class="lead">
                         {{ __('lang.hotel_desc') }}
-                    </p>
+                        <br>
+                        <b>F&B</b>
+                    </p> 
                 </div>
             </div>
             <div class="col-xs-12 col-md-6 style-div" style="float: {{ $dir_div }}">

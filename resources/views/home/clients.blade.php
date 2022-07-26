@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 text-center">
                 <div class="section-title">
-                    <h1><b>{{ __('lang.clients') }}</b></h1>
+                    <h1><b class="w3-text-black">{{ __('lang.clients') }}</b></h1>
                     <span class="border-line"></span>
                     <p class="lead subtitle-caption">
                         {{-- {{ __('lang.we_have_the_best_services') }} --}}

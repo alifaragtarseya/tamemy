@@ -14,7 +14,7 @@
             <!-- SLIDE 1 -->
             <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('assets/images/backgrounds/hotel.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="{{ asset('assets/images/servcies/hotel/3.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption slider-title" data-x="center" data-y="center" data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
@@ -34,7 +34,49 @@
             <!-- SLIDE 2 -->
             <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('assets/images/backgrounds/restaurant.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="{{ asset('assets/images/servcies/hotel/4.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
+
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption slider-title" data-x="center" data-y="center" data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                    {{-- {{ __('lang.welcome_to') }} <span class="main-color">{{ __('lang.turky_al_tamimi') }}</span> --}}
+                </div> <!-- /tp-caption -->
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
+                    {{-- <h5><b>{{__('lang.desc1')}}</b></h5> --}}
+                </div> <!-- /tp-caption -->
+
+                <!-- LAYER NR. 3 -->
+                {{-- <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
+                    <a class="btn btn-white" href="#about">See more</a>
+                </div>  --}}
+                <!-- /tp-caption -->
+            </li>
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                <!-- MAIN IMAGE -->
+                <img src="{{ asset('assets/images/servcies/hotel/5.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
+
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption slider-title" data-x="center" data-y="center" data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                    {{-- {{ __('lang.welcome_to') }} <span class="main-color">{{ __('lang.turky_al_tamimi') }}</span> --}}
+                </div> <!-- /tp-caption -->
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
+                    {{-- <h5><b>{{__('lang.desc1')}}</b></h5> --}}
+                </div> <!-- /tp-caption -->
+
+                <!-- LAYER NR. 3 -->
+                {{-- <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
+                    <a class="btn btn-white" href="#about">See more</a>
+                </div>  --}}
+                <!-- /tp-caption -->
+            </li>
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                <!-- MAIN IMAGE -->
+                <img src="{{ asset('assets/images/servcies/hotel/6.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
 
                 <!-- LAYERS -->
                 <!-- LAYER NR. 1 -->
