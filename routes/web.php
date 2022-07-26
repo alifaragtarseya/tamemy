@@ -18,4 +18,4 @@ Route::get('lang', [LangController::class,'index'])->name('lang.index');
 
 
 Route::get('/', [HomeController::class,'index'])->name('home.index');
-Route::get('/contant', [HomeController::class,'contant'])->name('home.contant');
+Route::get('/contact', [HomeController::class,'contact'])->name('home.contact');

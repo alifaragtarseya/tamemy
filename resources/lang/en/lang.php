@@ -8,7 +8,7 @@ return [
     'about' => 'About us',
     'services' => 'Services',
     'blog' => 'Blog',
-    'contact' => 'Contant us',
+    'contact' => 'Contact us',
     'ar' => ' Ar',
     'en' => 'En',
 

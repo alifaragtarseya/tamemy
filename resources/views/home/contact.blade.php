@@ -49,7 +49,7 @@
 
 
 @section('content')
-<div class="contant">
+<div class="contact">
     <div class="row">
         <section id="contact" class="section-padding">
             <div class="container">

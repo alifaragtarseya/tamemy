@@ -28,7 +28,7 @@
                     </a>
                 </li>
                 @endif
-                <li class="{{request()->routeIs('home.contant')  ? 'active' : ''}}"><a href="{{ url('/contant') }}">{{ __('lang.contact') }}</a></li>
+                <li class="{{request()->routeIs('home.contact')  ? 'active' : ''}}"><a href="{{ url('/contact') }}">{{ __('lang.contact') }}</a></li>
 
                 <li><a href="{{ url('/') }}#blog">{{ __('lang.blog') }}</a></li>
 
