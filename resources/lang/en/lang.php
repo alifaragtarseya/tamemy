@@ -30,8 +30,8 @@ return [
 
     'marriage_and_conferene_halls_desc' => 'Marriage and conference halls are distinguished to provide a forum for events. - Fahda Hall for weddings and conferences.',
 
-    'resturant_desc' => 'Several restaurants were established to extend into a chain that forms a front and a first choice for restaurant lovers in the Riyadh region. The field was developed to target all segments of society and tourists from outside the Kingdom. - The House Restaurant. - Laffa Restaurant. - Boo Restaurant. - Wee coffee. - The Selection coffee and bakery.',
-
+    'resturant_desc' => 'Several restaurants were established to extend into a chain that forms a front and a first choice for restaurant lovers in the Riyadh region. The field was developed to target all segments of society and tourists from outside the Kingdom. - The House Restaurant. - Laffa Restaurant. ',
+    // - Boo Restaurant. - Wee coffee. - The Selection coffee and bakery.'
     'catering_services_desc' => 'The catering services section is one of the cornerstones of what the Turki Al-Tamimi Foundation provides in the Kingdom and abroad. It is a highly experienced and trained business, formulating strategies throughout the region,',
     'hotels' => 'Hotels Field',
     'resorts' => 'Resorts Field',

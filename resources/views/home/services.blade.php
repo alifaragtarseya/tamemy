@@ -23,10 +23,10 @@
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        {{-- <li data-target="#myCarousel" data-slide-to="2"></li>
                         <li data-target="#myCarousel" data-slide-to="3"></li>
                         <li data-target="#myCarousel" data-slide-to="4"></li>
-                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li> --}}
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -41,7 +41,7 @@
                         </div>
 
 
-                        <div class="item">
+                        {{-- <div class="item">
                             <div style="background-image:url('{{ asset('assets/images/servcies/hotel/3.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
                         </div>
                         <div class="item">
@@ -52,7 +52,7 @@
                         </div>
                         <div class="item">
                             <div style="background-image:url('{{ asset('assets/images/servcies/hotel/6.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
-                        </div>
+                        </div> --}}
                     </div>
 
                     <!-- Left and right controls -->
@@ -204,11 +204,12 @@
             <div class="col-sm-12 col-md-6 style-div "style="float: {{ $dir_div }}">
                 <br><br><br><br>
                 <div class="title w3-padding-top-64 w3-center">
-                    <h1 class="w3-text-grey w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.hadb_najd') }}</b></h1>
+                    <h1 class="w3-text-grey w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.marriage_and_conferene_halls') }}</b></h1>
                     <small>{{ __('lang.fields') }}</small>
 
                 </div>
                 <div class="desc w3-padding-top-32  w3-center ">
+                    <h3 class="title" ><b>{{ __('lang.hadb_najd') }}</b></h3><br>
                     <p class="lead">
                         {{ __('lang.hadb_najd_desc') }}
                     </p>

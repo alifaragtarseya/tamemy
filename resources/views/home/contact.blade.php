@@ -11,12 +11,12 @@
     }
 
     nav.before-color .navbar-nav>li>a {
-        color: #000 !important;
+        color: gray !important;
     }
-    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover, .lang-txt:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    /* .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover, .lang-txt:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #7366ff !important;
     background-color: transparent;
-}
+} */
 
 #contact {
     background: none;
@@ -38,7 +38,12 @@
     border: none;
     background: #d8d5f730;
 }
-
+.container {
+    padding-right: 30px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
 </style>
 @endsection
 
@@ -70,7 +75,7 @@
                 <br><br>
                 <div class="row">
                     <div class="col-sm-12 col-md-6" style="float: {{ $dir2 }}">
-                        <img src="{{ asset('assets/images/backgrounds/contact.png') }}" alt="">
+                        <img style="max-width: 100%" src="{{ asset('assets/images/backgrounds/contact.jpg') }}" alt="">
                     </div>
                     <div class="col-sm-12 col-md-6" style="padding-top: 90px">
                         <div class="row">

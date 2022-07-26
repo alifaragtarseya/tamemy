@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    {{ __('lang.turky_al_tamimi') }}
+{{ __('lang.turky_al_tamimi') }}
 @endsection
 
 @section('cs')
@@ -90,7 +90,7 @@
                     <h1><b>{{ __('lang.blogs') }}</b></h1>
                     <span class="border-line"></span>
                     <p class="lead subtitle-caption">
-                        
+
                     </p>
                 </div>
             </div>
@@ -101,103 +101,105 @@
 
     <div class="news-wrapper container">
         <div class='row'>
-            <div class="col-md-4 col-sm-12 pt-8 " >
+            <div class="col-md-4 col-sm-12 pt-8 ">
                 <div class="flip-card">
                     <div class="flip-card-inner w3-padding-10">
-                      <div class="flip-card-front">
-                        <img  src="{{ asset('assets/images/blog/1.jpg') }}" alt="Avatar" style="width:300px;height:300px;">
-                      </div>
-                      <div class="flip-card-back">
-                        <h5>{{ __('lang.hotels') }}</h5> 
-                        <p class="w3-padding-large w3-text-white">
-                            {{ subStr(__('lang.hotel_desc'), 0 , 300) }}
-                          </p>
-                      </div>
-                      
+                        <div class="flip-card-front">
+                            <img src="{{ asset('assets/images/blog/1.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5><b>{{ __('lang.hotels') }}</b></h5>
+                            <p class="w3-padding-large w3-text-black">
+                                {{ __('lang.hotel_desc') }}
+                            </p>
+                        </div>
+
                     </div>
-                  </div>
+                </div>
             </div>
-            
-            <div class="col-md-4 col-sm-12 pt-8 " >
+
+            <div class="col-md-4 col-sm-12 pt-8 ">
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img  src="{{ asset('assets/images/blog/3.jpg') }}" alt="Avatar" style="width:300px;height:300px;">
-                      </div>
-                      <div class="flip-card-back">
-                        <h5>{{ __('lang.resturant') }}</h5> 
-                        <p class="w3-padding-large w3-text-white">
-                            {{ __('lang.resturant_desc') }}
-                          </p>
-                      </div>
+                        <div class="flip-card-front">
+                            <img src="{{ asset('assets/images/blog/3.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5><b>{{ __('lang.resturant') }}</b></h5>
+                            <p class="w3-padding-large w3-text-black">
+                                {{ __('lang.resturant_desc') }}
+                            </p>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-12 pt-8 " >
+            <div class="col-md-4 col-sm-12 pt-8 ">
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img  src="{{ asset('assets/images/blog/4.webp') }}" alt="Avatar" style="width:300px;height:300px;">
-                      </div>
-                      <div class="flip-card-back">
-                       <h5>{{ __('lang.resorts') }}</h5> 
-                       <p class="w3-padding-large w3-text-white">
-                        {{ __('lang.resorts_desc') }}
-                      </p>
-                      </div>
+                        <div class="flip-card-front">
+                            <img src="{{ asset('assets/images/blog/4.webp') }}" alt="Avatar" style="width:100%;height:100%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5><b>{{ __('lang.resorts') }}</b></h5>
+                            <p class="w3-padding-large w3-text-black">
+                                {{ __('lang.resorts_desc') }}
+                            </p>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-12 pt-8 " >
+            <div class="col-md-4 col-sm-12 pt-8 ">
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img  src="{{ asset('assets/images/blog/5.jpg') }}" alt="Avatar" style="width:300px;height:300px;">
-                      </div>
-                      <div class="flip-card-back">
-                       <h5>{{ __('lang.catering_services') }}</h5> 
-                       <p class="w3-padding-large w3-text-white">
-                        {{ __('lang.catering_services_desc') }}
-                      </p>
-                      </div>
+                        <div class="flip-card-front">
+                            <img src="{{ asset('assets/images/blog/5.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5><b>{{ __('lang.catering_services') }}</b></h5>
+                            <p class="w3-padding-large w3-text-black">
+                                {{ __('lang.catering_services_desc') }}
+                            </p>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-12 pt-8 " >
+            <div class="col-md-4 col-sm-12 pt-8 ">
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img  src="{{ asset('assets/images/blog/6.jpg') }}" alt="Avatar" style="width:300px;height:300px;">
-                      </div>
-                      <div class="flip-card-back">
-                       <h5>{{ __('lang.marriage_and_conferene_halls') }}</h5> 
-                       <p class="w3-padding-large w3-text-white">
-                        {{ __('lang.marriage_and_conferene_halls_desc') }}
-                      </p>
-                      </div>
+                        <div class="flip-card-front">
+                            <img src="{{ asset('assets/images/blog/6.jpg') }}" alt="Avatar" style="width:100%;height: 100%;">
+                        </div>
+                        <div class="flip-card-back ">
+                            <h5><b>{{ __('lang.marriage_and_conferene_halls') }}</b></h5>
+                            <p class="w3-padding-large w3-text-black">
+                                {{ __('lang.marriage_and_conferene_halls_desc') }}
+                            </p>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-12 pt-8 " >
+            <div class="col-md-4 col-sm-12 pt-8 ">
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img  src="{{ asset('assets/images/blog/7.jpg') }}" alt="Avatar" style="width:300px;height:300px;">
-                      </div>
-                      <div class="flip-card-back">
-                       <h5>{{ __('lang.marriage_and_conferene_halls') }}</h5> 
-                       <p class="w3-padding-large w3-text-white">
-                        {{ __('lang.marriage_and_conferene_halls_desc') }}
-                      </p>
-                      </div>
+                        <div class="flip-card-front">
+                            <img src="{{ asset('assets/images/blog/7.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5><b>{{ __('lang.marriage_and_conferene_halls') }}</b></h5>
+                            <p class="w3-padding-large w3-text-black">
+                                {{ __('lang.marriage_and_conferene_halls_desc') }}
+                            </p>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="clearfix"></div>
 
-   
+    
+
+
 </section>
 <div class="funfacts parallax-1">
     <div class="container">
@@ -243,7 +245,7 @@
 
 <!--call to action-->
 
-{{-- 
+{{--
  --}}
 <!--contact section end-->
 @endsection

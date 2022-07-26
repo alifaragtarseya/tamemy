@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-6 " style="float: {{ $dir_div }}">
                 <div class="image">
-                    <img style="max-width: 100%;" src="{{ asset('assets/images/backgrounds/about.png') }}" alt="">
+                    <img style="max-width: 100%;" src="{{ asset('assets/images/backgrounds/about.jpg') }}" alt="">
                 </div>
             </div>
             <!--features col-->
