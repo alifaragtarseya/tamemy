@@ -13,15 +13,23 @@
 <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/my_style_v1.css') }}">
 
+
+<!--revolution slider setting css-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap" rel="stylesheet">
+
 <style>
-    @font-face {
-        font-family: "arabfont";
-        src: url("{{ url('/assets/fonts/ArbFONTS-Changa-Medium.ttf') }}");
-        src: url("{{ url('/assets/fonts/ArbFONTS-Changa-Medium.ttf') }}") format("ttf");
+    *,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    html,
+    body {
+        font-family: 'Changa', sans-serif;
     }
 
-
-    *, h1, h2, h3, h4, h5, h6 {
-        font-family: 'arabfont', 'Changa';
-    }
 </style>

@@ -9,13 +9,7 @@
     <link rel="shortcut icon" href="{{ asset('assets/images/customer_logo/logo.png') }}" type="image/x-icon">
     @include('layouts.css')
     @yield('css')
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500&display=swap');
-
-        html,
-        body {
-            font-family: 'Tajawal', sans-serif !important;
-        }
+    <style> 
 
     </style>
 </head>

@@ -268,10 +268,10 @@
             items:1
         },
         600:{
-            items:3
+            items: {{ (App\Models\Helper::isMobile())? 1 : 3 }}
         },
         1000:{
-            items:5
+            items: {{ (App\Models\Helper::isMobile())? 1 : 5 }}
         }
     }
 })
