@@ -76,7 +76,7 @@
 
 <!--testimonials-->
 
-<div class="cta cta-bg">
+<div class="cta cta-bg w3-black">
     <div class="container text-center scroll-to">
         <h1>{{ __('lang.turky_al_tamimi') }}</h1>
         <a href="#services" class="btn btn-white btn-radius btn-lg">

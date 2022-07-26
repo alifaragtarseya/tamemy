@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 text-center">
                 <div class="section-title">
-                    <h1><b>{{ __('lang.services') }}</b></h1>
+                    <h1><b class="w3-text-black">{{ __('lang.services') }}</b></h1>
                     <span class="border-line"></span>
                     <p class="lead subtitle-caption">
                         {{ __('lang.we_have_the_best_services') }}
@@ -69,7 +69,7 @@
             <div class="col-sm-12 col-md-6 style-div ">
                 <br><br><br><br>
                 <div class="title w3-padding-top-64 w3-center">
-                    <h1 class="w3-text-grey w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.hotels') }}</b></h1>
+                    <h1 class="w3-text-black w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.hotels') }}</b></h1>
                     <small>{{ __('lang.fields') }}</small>
 
                 </div>
@@ -85,7 +85,7 @@
             <div class="col-sm-12 col-md-6 style-div "style="float: {{ $dir_div }}">
                 <br><br><br><br>
                 <div class="title w3-padding-top-64 w3-center">
-                    <h1 class="w3-text-grey w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.resorts') }}</b></h1>
+                    <h1 class="w3-text-black w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.resorts') }}</b></h1>
                     <small>{{ __('lang.fields') }}</small>
 
                 </div>
@@ -187,7 +187,7 @@
             <div class="col-sm-12 col-md-6 style-div ">
                 <br><br><br><br>
                 <div class="title w3-padding-top-64 w3-center">
-                    <h1 class="w3-text-grey w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.resturant') }}</b></h1>
+                    <h1 class="w3-text-black w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.resturant') }}</b></h1>
                     <small>{{ __('lang.fields') }}</small>
 
                 </div>
@@ -204,7 +204,7 @@
             <div class="col-sm-12 col-md-6 style-div "style="float: {{ $dir_div }}">
                 <br><br><br><br>
                 <div class="title w3-padding-top-64 w3-center">
-                    <h1 class="w3-text-grey w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.marriage_and_conferene_halls') }}</b></h1>
+                    <h1 class="w3-text-black w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.marriage_and_conferene_halls') }}</b></h1>
                     <small>{{ __('lang.fields') }}</small>
 
                 </div>
@@ -309,7 +309,7 @@
             <div class="col-sm-12 col-md-6 style-div ">
                 <br><br><br><br>
                 <div class="title w3-padding-top-64 w3-center">
-                    <h1 class="w3-text-grey w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.catering_services') }}</b></h1>
+                    <h1 class="w3-text-black w3-padding-top-64"> <b class="w3-padding-top-64">{{ __('lang.catering_services') }}</b></h1>
                     <small>{{ __('lang.fields') }}</small>
 
                 </div>

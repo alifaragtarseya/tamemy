@@ -32,4 +32,8 @@
         font-family: 'Changa', sans-serif;
     }
 
+    .owl-carousel .item {
+        border-radius: 2em!important;
+    }
+
 </style>

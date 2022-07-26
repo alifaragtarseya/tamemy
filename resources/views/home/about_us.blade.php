@@ -1,4 +1,5 @@
 @php $dir_div = app()->getLocale() == 'ar' ? 'right' : 'left'; @endphp
+@php $dir = app()->getLocale() == 'ar' ? 'right' : 'left'; @endphp
 <section id="about" class="section-padding">
     <div class="container">
         <div class="row">
@@ -12,15 +13,15 @@
         </div><!-- title row end-->
 
         <div class="row">
-            <div class="col-sm-12 col-md-6 " style="float: {{ $dir_div }}">
-                <div class="image">
-                    <img style="max-width: 100%;" src="{{ asset('assets/images/backgrounds/about.jpg') }}" alt="">
+            <div class="col-sm-12 col-md-6 " style="{{ !(App\Models\Helper::isMobile())? "float: " . $dir_div : "" }}">
+                <div class="">
+                    <img style="max-width: 100%;" src="{{ asset('assets/images/about.svg') }}" alt="">
                 </div>
             </div>
             <!--features col-->
-            <div class="col-sm-12 col-md-6  " >
+            <div  class="col-sm-12 col-md-6 {{ (App\Models\Helper::isMobile())? 'w3-center text-center' : '' }}" >
                 <div class=" card about-content ">
-                    <div class="card-body w3-padding-top-64">
+                    <div class="card-body w3-padding-top-32"> 
                         <p class="w3-text-grey w3-large">
                             {{ __('lang.about_desc') }}
                         </p>
