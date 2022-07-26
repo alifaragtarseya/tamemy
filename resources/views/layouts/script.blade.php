@@ -14,4 +14,6 @@
 <script type="text/javascript" src="{{ asset('assets/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/js/template.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+
 

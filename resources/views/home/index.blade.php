@@ -67,8 +67,11 @@
 <!--about section end-->
 
 
-
+@if (App\Models\Helper::isMobile())
+@include('home.services_mobile') 
+@else
 @include('home.services')
+@endif
 <!--services section end-->
 
 <!--testimonials-->
@@ -201,7 +204,8 @@
 
 
 </section>
-<div class="funfacts parallax-1">
+
+{{-- <div class="funfacts parallax-1">
     <div class="container">
         <div class="row">
             <div class="col-sm-4 margin-bottom30 text-center">
@@ -211,7 +215,7 @@
                     <span class="border-line"></span>
                 </div>
             </div>
-            <!--fact cols-->
+            
             <div class="col-sm-4 margin-bottom30 text-center">
                 <div class="fact-box">
                     <h2>832</h2>
@@ -219,7 +223,7 @@
                     <span class="border-line"></span>
                 </div>
             </div>
-            <!--fact cols-->
+            
             <div class="col-sm-4 margin-bottom30 text-center">
                 <div class="fact-box">
                     <h2>24</h2>
@@ -227,20 +231,22 @@
                     <span class="border-line"></span>
                 </div>
             </div>
-            <!--fact cols-->
-            {{-- <div class="col-sm-3 margin-bottom30 text-center">
+            
+            <div class="col-sm-3 margin-bottom30 text-center">
                 <div class="fact-box">
                     <h2>750</h2>
                     <h5>Cups of coffee</h5>
                     <span class="border-line"></span>
                 </div>
-            </div> --}}
-            <!--fact cols-->
+            </div>
+            
 
         </div>
     </div>
-</div>
+</div> --}}
+
 @include('home.clients')
+
 <!--news section end-->
 
 <!--call to action-->
@@ -251,5 +257,23 @@
 @endsection
 
 @section('js')
-
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots: false,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
 @endsection
