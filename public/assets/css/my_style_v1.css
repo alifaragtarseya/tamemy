@@ -161,3 +161,9 @@ padding-top: 30px;
     color: rgb(62 60 60 / 70%) !important;
     font-size: 12px;
 }
+
+.btn-white:hover {
+    color: black !important;
+    border-color: #fff;
+    background-color: #fff;
+}
