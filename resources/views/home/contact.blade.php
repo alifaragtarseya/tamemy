@@ -77,7 +77,7 @@
                     <div class="col-sm-12 col-md-6" style="float: {{ $dir2 }}">
                         <img style="max-width: 100%" src="{{ asset('assets/images/backgrounds/contact.jpg') }}" alt="">
                     </div>
-                    <div class="col-sm-12 col-md-6" style="padding-top: 90px">
+                    <div class="col-sm-12 col-md-6" style="padding-top: 10px">
                         <div class="row">
                             <div class="col-md-4 w3-padding w3-center">
                                 <a href="tel:0541441616">
@@ -89,11 +89,38 @@
                                 </a>
                             </div>
                             <div class="col-md-4 w3-padding w3-center">
-                                <a href="mailto:info@altamimiest.com">
+                                <a href="mailto:Turki@altamimiest.com ">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-at-sign"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>
                                     <br>
                                     <b>
-                                        info@altamimiest.com
+                                        Turki@altamimiest.com 
+                                    </b>
+                                </a>
+                            </div>
+                            <div class="col-md-4 w3-padding w3-center">
+                                <a href="mailto:m.operation@Altamimiest.com">
+                                    <img src="{{ asset('assets/images/icon/email.svg') }}" style="width: 47px" alt="">
+                                    <br>
+                                    <b style="font-size: 13px">
+                                        m.operation@Altamimiest.com
+                                    </b>
+                                </a>
+                            </div>
+                            <div class="col-md-4 w3-padding w3-center">
+                                <a href="mailto:G.manager@Altamimiest.com">
+                                    <img src="{{ asset('assets/images/icon/email1.svg') }}" style="width: 47px" alt="">
+                                    <br>
+                                    <b style="font-size: 13px">
+                                        G.manager@Altamimiest.com
+                                    </b>
+                                </a>
+                            </div>
+                            <div class="col-md-4 w3-padding w3-center">
+                                <a href="mailto:M.financial@altamimiest.com">
+                                    <img src="{{ asset('assets/images/icon/mail.svg') }}" style="width: 47px" alt="">
+                                    <br>
+                                    <b style="font-size: 13px">
+                                        M.financial@altamimiest.com
                                     </b>
                                 </a>
                             </div>

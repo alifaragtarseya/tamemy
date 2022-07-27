@@ -1,7 +1,7 @@
  
 
 <section id="services" class="section-padding" style="background: #f4f4f4">
-    <div class="container">
+    <div class="container reveal fade-bottom">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 text-center">
                 <div class="section-title">

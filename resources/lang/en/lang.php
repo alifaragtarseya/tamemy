@@ -50,9 +50,11 @@ return [
     'email' => 'Email',
     'message' => 'Message',
     'fields' => 'Fields',
-    '' => '',
-    '' => '',
-    '' => '',
+    'organizing_exhibitions_and_conferences' => 'Exhibition & Conference organizing',
+    'organizing_exhibitions_desc' => 'Poetry is the most valuable element in displaying the concepts and cultural identifiers in Arab societies.
+    Poetry and literature have been Valued in Saudi society. So, Layali Al-Turki comes as a valuable addition to the field of cultural events in the city of Riyadh, bringing together a group of poets and writers from the Kingdom, the Gulf, and the Arab world.
+    Each evening has a different impression to target the largest possible segment of those interested culture and contemporary Nabati poetry.',
+    'layali_alturkii' => 'Layali Al-Turki (Turkish nights)',
     '' => '',
     '' => '',
 ];

@@ -266,3 +266,75 @@ padding-top: 30px;
     height: 100px;
     top:50%;
 }
+
+
+/************************** animation **********************************************/
+/* .section-title{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: -1s;
+}
+@keyframes example { */
+    /* 0%   { left:0px; top:0px;}
+    25%  { left:0px; top:100px;}
+    50%  { left:0px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;} */
+    /* from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+  } */
+
+  .reveal {
+    position: relative;
+    opacity: 0;
+  }
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(150px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-190px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-right {
+    0% {
+      transform: translateX(220px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
