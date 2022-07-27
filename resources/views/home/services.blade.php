@@ -182,28 +182,17 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <div
-                                style="background-image:url('{{ asset('assets/images/servcies/resturant/1.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                style="background-image:url('{{ asset('assets/images/servcies/2.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
                             </div>
                             {{-- <img src="" alt="Los Angeles" style="width:100%;"> --}}
                         </div>
 
                         <div class="item">
                             <div
-                                style="background-image:url('{{ asset('assets/images/servcies/resturant/2.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                style="background-image:url('{{ asset('assets/images/servcies/1.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
                             </div>
                         </div>
 
-
-                        <div class="item">
-                            <div
-                                style="background-image:url('{{ asset('assets/images/servcies/resturant/3.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div
-                                style="background-image:url('{{ asset('assets/images/servcies/resturant/4.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
-                            </div>
-                        </div>
                         {{-- <div class="item">
                             <div style="background-image:url('{{ asset('assets/images/servcies/hotel/5.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;">
                 </div>

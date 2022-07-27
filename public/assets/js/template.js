@@ -25,11 +25,11 @@ jQuery(document).ready(function() {
 
     revapi = jQuery('.tp-banner').revolution(
             {
-                delay: 6000,
+                delay: 1000,
                 startwidth: 1170,
-                startheight: 450,
+                startheight: 900, 
                 hideThumbs: 10,
-                fullScreen: "on",
+                fullScreen: "off",
                 forceFullWidth: "on",
                 navigationStyle: "preview4"
             });

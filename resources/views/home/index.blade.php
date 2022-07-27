@@ -11,17 +11,17 @@
 </style>
 @endsection
 
-@section('content')
-<div class="fullwidthbanner" id="home" style="height: 700px">
-    <div class="tp-banner" style="height: 700px !important ;">
+@section('content') 
+<div class="fullwidthbanner" id="home"  >
+    <div class="tp-banner" style="height: 900px;margin-top: 80px">
         <ul>
             <!-- SLIDE 1 -->
             <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('assets/images/slider.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
+                <img src="{{ asset('assets/images/slider2.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption slider-title" data-x="center" data-y="center" data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                <div class="tp-caption slider-title" data-x="center" data-y="center" data-voffset="-30" data-speed="" data-start="1200" data-easing="Power4.easeInOut">
                     {{-- {{ __('lang.welcome_to') }} <span class="main-color">{{ __('lang.turky_al_tamimi') }}</span> --}}
                 </div> <!-- /tp-caption -->
                 <!-- LAYER NR. 2 -->
@@ -44,7 +44,7 @@
 
 
 
-
+<br><br><br><br><br><br>
 
 @include('home.about_us')
 <!--about section end-->
@@ -61,8 +61,8 @@
 
 <div class="cta cta-bg w3-black reveal fade-bottom" style="background-image: url('{{ asset('assets/images/footer.jpg') }}');    background-position: center;background-size: cover;">
     <div class="container text-center scroll-to">
-        <h1>{{ __('lang.turky_al_tamimi') }}</h1>
-        <a href="#services" class="btn btn-white btn-radius btn-lg">
+        <h1 class="w3-text-grey">{{ __('lang.turky_al_tamimi') }}</h1>
+        <a href="#services" class="btn btn-white btn-radius btn-lg w3-text-grey">
             {{ __('lang.we_have_the_best_services') }}
         </a>
     </div>
@@ -91,7 +91,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner w3-padding-10">
                         <div class="flip-card-front">
-                            <img src="{{ asset('assets/images/blog/1.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                            <img src="{{ asset('assets/images/servcies/hotel/1.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
                         </div>
                         <div class="flip-card-back">
                             <h5><b>{{ __('lang.hotels') }}</b></h5>
@@ -153,7 +153,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="{{ asset('assets/images/blog/6.jpg') }}" alt="Avatar" style="width:100%;height: 100%;">
+                            <img src="{{ asset('assets/images/customer_logo/hdb.png') }}" alt="Avatar" style="width:100%;height: 100%;">
                         </div>
                         <div class="flip-card-back ">
                             <h5><b>{{ __('lang.marriage_and_conferene_halls') }}</b></h5>
@@ -168,12 +168,12 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="{{ asset('assets/images/blog/7.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                            <img src="{{ asset('assets/images/servcies/org/1.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
                         </div>
                         <div class="flip-card-back">
-                            <h5><b>{{ __('lang.marriage_and_conferene_halls') }}</b></h5>
+                            <h5><b>{{ __('lang.organizing_exhibitions_and_conferences') }}</b></h5>
                             <p class="w3-padding-large w3-text-black">
-                                {{ __('lang.marriage_and_conferene_halls_desc') }}
+                                {{ __('lang.organizing_exhibitions_desc') }}
                             </p>
                         </div>
                     </div>
