@@ -5,46 +5,24 @@
 
 @section('cs')
 <style>
-    .fullwidthbanner{
+    .fullwidthbanner {
         height: 650px !important;
     }
+
 </style>
 @endsection
 
-@section('content') 
-<div class="fullwidthbanner" id="home"  >
-    <div class="tp-banner" style="height: 900px;margin-top: 80px">
-        <ul>
-            <!-- SLIDE 1 -->
-            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
-                <!-- MAIN IMAGE -->
-                <img src="{{ asset('assets/images/slider1.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="top center" data-bgrepeat="round" >
-                <!-- LAYERS -->
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption slider-title" data-x="center" data-y="center" data-voffset="-30" data-speed="" data-start="1200" data-easing="Power4.easeInOut">
-                    {{-- {{ __('lang.welcome_to') }} <span class="main-color">{{ __('lang.turky_al_tamimi') }}</span> --}}
-                </div> <!-- /tp-caption -->
-                <!-- LAYER NR. 2 -->
-                <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
-                    {{-- <h5><b>{{__('lang.desc1')}}</b></h5> --}}
-                </div> <!-- /tp-caption -->
+@section('content')
+<div class="slider">
+    <img src="{{ asset('assets/images/slider1.jpg') }}"style="width:100%;background-position: center;background-size: cover;margin-top: 60px;" alt="{{ __('lang.turky_al_tamimi') }}" >
 
-                <!-- LAYER NR. 3 -->
-                {{-- <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
-                    <a class="btn btn-white" href="#about">See more</a>
-                </div>  --}}
-                <!-- /tp-caption -->
-            </li>
-           
-            <!-- SLIDE 3 -->
-        </ul>
-    </div>
 </div>
+
 <!--full width banner-->
 
 
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 @include('home.about_us')
 <!--about section end-->
@@ -251,12 +229,18 @@
                 items: 1
             }
             , 600: {
-                items:
-                      {{ (App\Models\Helper::isMobile()) ? 1: 3 }}
+                items: {
+                    {
+                        (App\ Models\ Helper::isMobile()) ? 1: 3
+                    }
+                }
             }
             , 1000: {
-                items:
-                       {{ (App\Models\Helper::isMobile()) ? 1: 5}}
+                items: {
+                    {
+                        (App\ Models\ Helper::isMobile()) ? 1: 5
+                    }
+                }
 
             }
         }
