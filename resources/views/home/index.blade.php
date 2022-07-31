@@ -18,7 +18,7 @@
             <!-- SLIDE 1 -->
             <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('assets/images/slider2.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
+                <img src="{{ asset('assets/images/slider1.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="top center" data-bgrepeat="round" >
                 <!-- LAYERS -->
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption slider-title" data-x="center" data-y="center" data-voffset="-30" data-speed="" data-start="1200" data-easing="Power4.easeInOut">
@@ -108,7 +108,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="{{ asset('assets/images/blog/3.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                            <img src="{{ asset('assets/images/servcies/2.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
                         </div>
                         <div class="flip-card-back">
                             <h5><b>{{ __('lang.resturant') }}</b></h5>
@@ -123,7 +123,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="{{ asset('assets/images/blog/4.webp') }}" alt="Avatar" style="width:100%;height:100%;">
+                            <img src="{{ asset('assets/images/servcies/resorts/1.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
                         </div>
                         <div class="flip-card-back">
                             <h5><b>{{ __('lang.resorts') }}</b></h5>
@@ -138,7 +138,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="{{ asset('assets/images/blog/5.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                            <img src="{{ asset('assets/images/servcies/1.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
                         </div>
                         <div class="flip-card-back">
                             <h5><b>{{ __('lang.catering_services') }}</b></h5>

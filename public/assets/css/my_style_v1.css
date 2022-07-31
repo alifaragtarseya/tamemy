@@ -222,7 +222,7 @@ padding-top: 30px;
 
 .footer {
     height: 400px;
-    background-image: url(/assets/images/footer.jpg);
+    background-image: url(/assets/images/footer.jpg) !important;
     background-size: cover;
     background-position: center;
 
