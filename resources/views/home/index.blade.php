@@ -229,18 +229,10 @@
                 items: 1
             }
             , 600: {
-                items: {
-                    {
-                        (App\ Models\ Helper::isMobile()) ? 1: 3
-                    }
-                }
+                items: {{ (App\ Models\ Helper::isMobile()) ? 1: 3}}
             }
             , 1000: {
-                items: {
-                    {
-                        (App\ Models\ Helper::isMobile()) ? 1: 5
-                    }
-                }
+                items: {{(App\ Models\ Helper::isMobile()) ? 1: 5}}
 
             }
         }
