@@ -86,7 +86,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="{{ asset('assets/images/servcies/2.jpg') }}" alt="Avatar" style="width:100%;height:100%;">
+                            <iframe src="https://kuula.co/share/7FnDl?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" width="100%" height="100%" frameborder="0"></iframe>
                         </div>
                         <div class="flip-card-back">
                             <h5><b>{{ __('lang.resturant') }}</b></h5>

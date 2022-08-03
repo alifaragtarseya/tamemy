@@ -172,8 +172,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel3" data-slide-to="1"></li>
-                        <li data-target="#myCarousel3" data-slide-to="2"></li>
-                        <li data-target="#myCarousel3" data-slide-to="3"></li>
+
                         {{-- <li data-target="#myCarousel3" data-slide-to="4"></li>
                         <li data-target="#myCarousel3" data-slide-to="5"></li> --}}
                     </ol>
@@ -181,16 +180,12 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <div
-                                style="background-image:url('{{ asset('assets/images/servcies/2.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
-                            </div>
+                            <iframe src="https://kuula.co/share/7Jd9B?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" width="100%" height="780px" frameborder="0"></iframe>
                             {{-- <img src="" alt="Los Angeles" style="width:100%;"> --}}
                         </div>
 
                         <div class="item">
-                            <div
-                                style="background-image:url('{{ asset('assets/images/servcies/1.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
-                            </div>
+                            <iframe src="https://kuula.co/share/7FnDl?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" width="100%" height="780px" frameborder="0"></iframe>
                         </div>
 
                         {{-- <div class="item">
@@ -382,7 +377,7 @@
 
                 </div>
                 <div class="desc w3-padding-top-32  w3-center ">
-                   
+
                     <p class="lead">
                         <h2>{{ __('lang.layali_alturkii') }}</h2>
                         {{ __('lang.organizing_exhibitions_desc') }}
