@@ -23,8 +23,8 @@
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
-                        {{-- <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        {{-- <li data-target="#myCarousel" data-slide-to="3"></li>
                         <li data-target="#myCarousel" data-slide-to="4"></li>
                         <li data-target="#myCarousel" data-slide-to="5"></li> --}}
                     </ol>
@@ -44,20 +44,26 @@
                             </div>
                         </div>
 
+                        <div class="item">
+                            <div
+                                style="background-image:url('{{ asset('assets/images/servcies/hotel/3.jpg') }}') ;height: 780px;background-position: bottom;background-repeat: no-repeat;background-size: auto;">
+                            </div>
+                        </div>
+
 
                         {{-- <div class="item">
-                            <div style="background-image:url('{{ asset('assets/images/servcies/hotel/3.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;">
-                    </div>
-                </div>
-                <div class="item">
-                    <div style="background-image:url('{{ asset('assets/images/servcies/hotel/4.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
-                </div>
-                <div class="item">
-                    <div style="background-image:url('{{ asset('assets/images/servcies/hotel/5.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
-                </div>
-                <div class="item">
-                    <div style="background-image:url('{{ asset('assets/images/servcies/hotel/6.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
-                </div> --}}
+                                    <div style="background-image:url('{{ asset('assets/images/servcies/hotel/3.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/hotel/4.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
+                        </div>
+                        <div class="item">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/hotel/5.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
+                        </div>
+                        <div class="item">
+                            <div style="background-image:url('{{ asset('assets/images/servcies/hotel/6.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
+                        </div> --}}
                     </div>
 
                     <!-- Left and right controls -->
@@ -247,8 +253,8 @@
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel4" data-slide-to="1"></li>
-                        {{-- <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel4" data-slide-to="2"></li>
+                        {{-- <li data-target="#myCarousel" data-slide-to="3"></li>
                         <li data-target="#myCarousel" data-slide-to="4"></li>
                         <li data-target="#myCarousel" data-slide-to="5"></li> --}}
                     </ol>
@@ -264,7 +270,12 @@
 
                         <div class="item">
                             <div
-                                style="background-image:url('{{ asset('assets/images/customer_logo/hdb.png') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                style="background-image:url('{{ asset('assets/images/servcies/hall/1.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                style="background-image:url('{{ asset('assets/images/servcies/hall/2.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
                             </div>
                         </div>
 
@@ -433,6 +444,70 @@
                 </div>
             </div>
 
+
+        </div>
+        <br>
+        <div class="row services reveal fade-left" style="overflow: hidden">
+
+            <div class="col-xs-12 col-md-6 style-div" style="float: {{ $dir_div }}">
+
+                <div id="myCarousel7" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel7" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel7" data-slide-to="1"></li>
+                        <li data-target="#myCarousel7" data-slide-to="2"></li>
+                        <li data-target="#myCarousel7" data-slide-to="3"></li>
+                        {{-- <li data-target="#myCarousel3" data-slide-to="5"></li> --}}
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div
+                                style="background-image:url('{{ asset('assets/images/servcies/conference_zone/1.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div
+                                style="background-image:url('{{ asset('assets/images/servcies/conference_zone/2.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div
+                                style="background-image:url('{{ asset('assets/images/servcies/conference_zone/3.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div
+                                style="background-image:url('{{ asset('assets/images/servcies/conference_zone/4.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 style-div ">
+                <br><br><br><br>
+                <div
+                    class="w3-display-top{{ $dir_div == 'right' ? 'left' : 'right' }} left-border-ser border-item-ser">
+                </div>
+                <div class="title w3-padding-top-64 w3-center">
+                    <h1 class="w3-text-black w3-padding-top-64"> <b
+                            class="w3-padding-top-64">{{ __('lang.conference_zone') }}</b></h1>
+                    <small>{{ __('lang.fields') }}</small>
+
+                </div>
+                <div class="desc w3-padding-top-32  w3-center ">
+                    <p class="lead">
+                        {{ __('lang.conference_zone_desc') }}
+                    </p>
+                </div>
+            </div>
 
         </div>
     </div>

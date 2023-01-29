@@ -24,6 +24,7 @@ return [
 
     'hotel_desc' => 'Establishing and operating hotels..Our vision is to lead the industry in the kingdom of Suadi Arabia to provide higt quality accommo-dation,service and value in an attractive envi-ronment.. We seek to combine the scientific view of hospitality management wiht a commit-ment to innovation and excellent driven by tourists..Our services seek to create opportuni-ties for employess and partners Business devel-opment and growth.
                     - HADB financial Hotel
+                    - Al Anoud Novotel Hotel
                     - HADB Press Hotel',
 
     'resorts_desc' => 'Operation and establishment of resorts .. A resort has been established characterized by several international designs in the heart of Al-Amariya, reflecting the antiquity of Najdi design and diversifying with other designs to attract tourists from outside the Kingdom. - Al-Sultan Resort. - Jawharat Al Wasil Resort.',
@@ -55,6 +56,11 @@ return [
     Poetry and literature have been Valued in Saudi society. So, Layali Al-Turki comes as a valuable addition to the field of cultural events in the city of Riyadh, bringing together a group of poets and writers from the Kingdom, the Gulf, and the Arab world.
     Each evening has a different impression to target the largest possible segment of those interested culture and contemporary Nabati poetry.',
     'layali_alturkii' => 'Layali Al-Turki (Turkish nights)',
+    'conference_zone' => 'Conference Zone meeting rooms',
+    'conference_zone_desc' => 'Area of meeting rooms
+    We are working to provide the ideal environment for holding meetings and exchanging ideas through our modern halls, which were established in several locations north of the Riyadh region, which has the ability to allocate an integrated forum with the highest technologies that include all services
+    Hospitality and other things that our customers need.
+    - Conference Zone.',
     '' => '',
     '' => '',
 ];

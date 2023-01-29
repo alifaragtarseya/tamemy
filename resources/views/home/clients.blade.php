@@ -1,4 +1,4 @@
- 
+
 
 <section id="services" class="section-padding" style="background: #f4f4f4">
     <div class="container reveal fade-bottom">
@@ -14,19 +14,19 @@
             </div>
         </div><!-- title row end-->
 
-        <div class="owl-carousel owl-theme"> 
-            @for ($index = 5; $index <= 28; $index ++)
+        <div class="owl-carousel owl-theme">
+            @for ($index = 5; $index <= 32; $index ++)
             @if (!in_array($index , [17,18,19]))
-            <div class="item"> 
+            <div class="item">
                 <div class="box-shadow w3-container">
                     <div class="w3-display-topleft left-border-item border-item-1"  ></div>
                     <div class="w3-display-topright left-border-item border-item-2"  ></div>
 
                     <img src="{{ asset('assets/images/customer_logo') }}/{{ "New Project (" . $index . ").png" }}" style="width: 100%" alt="">
                 </div>
-            </div> 
+            </div>
             @endif
-            @endfor 
+            @endfor
         </div>
     </div>
 </section>
