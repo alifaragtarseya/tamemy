@@ -47,14 +47,20 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <div
-                                style="background-image:url('{{ asset('assets/images/servcies/hotel/1.jpg') }}') ;height: 500px;background-position: top;background-repeat: no-repeat;background-size: cover;">
+                                style="background-image:url('{{ asset('assets/images/servcies/hotel/1.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;">
                             </div>
                             {{-- <img src="" alt="Los Angeles" style="width:100%;"> --}}
                         </div>
 
                         <div class="item">
                             <div
-                                style="background-image:url('{{ asset('assets/images/servcies/hotel/2.jpg') }}') ;height: 500px;background-position: top;background-repeat: no-repeat;background-size: cover;">
+                                style="background-image:url('{{ asset('assets/images/servcies/hotel/2.jpg') }}') ;height: 780px;background-position: top;background-repeat: no-repeat;background-size: cover;">
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div
+                                style="background-image:url('{{ asset('assets/images/servcies/hotel/3.jpg') }}') ;height: 780px;background-position: bottom;background-repeat: no-repeat;background-size: auto;">
                             </div>
                         </div>
 
@@ -131,19 +137,6 @@
                         </div>
 
 
-                        {{-- <div class="item">
-                            <div style="background-image:url('{{ asset('assets/images/servcies/hotel/3.jpg') }}') ;height: 500px;background-position: top;background-repeat: no-repeat;background-size: cover;">
-                </div>
-            </div>
-            <div class="item">
-                <div style="background-image:url('{{ asset('assets/images/servcies/hotel/4.jpg') }}') ;height: 500px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
-            </div>
-            <div class="item">
-                <div style="background-image:url('{{ asset('assets/images/servcies/hotel/5.jpg') }}') ;height: 500px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
-            </div>
-            <div class="item">
-                <div style="background-image:url('{{ asset('assets/images/servcies/hotel/6.jpg') }}') ;height: 500px;background-position: top;background-repeat: no-repeat;background-size: cover;"></div>
-            </div> --}}
                     </div>
 
 
@@ -240,16 +233,22 @@
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
+
                         <div class="item active">
                             <div
-                                style="background-image:url('{{ asset('assets/images/customer_logo/hdb.png') }}') ;height: 500px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                style="background-image:url('{{ asset('assets/images/customer_logo/hdb.png') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
                             </div>
                             {{-- <img src="" alt="Los Angeles" style="width:100%;"> --}}
                         </div>
 
                         <div class="item">
                             <div
-                                style="background-image:url('{{ asset('assets/images/customer_logo/hdb.png') }}') ;height: 500px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                style="background-image:url('{{ asset('assets/images/servcies/hall/1.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                style="background-image:url('{{ asset('assets/images/servcies/hall/2.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
                             </div>
                         </div>
 
@@ -314,12 +313,10 @@
                                 style="background-image:url('{{ asset('assets/images/servcies/2.jpg') }}') ;height: 500px;background-position: center;background-repeat: no-repeat;background-size: cover;">
                             </div>
                         </div>
-
-
                     </div>
 
-
                 </div>
+
             </div>
 
         </div>
@@ -351,7 +348,6 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-
                             <div
                                 style="background-image:url('{{ asset('assets/images/servcies/org/1.jpg') }}') ;height: 780px;background-position: center;background-repeat: no-repeat;background-size: cover;">
                             </div>
