@@ -37,8 +37,8 @@
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
-                        {{-- <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        {{-- <li data-target="#myCarousel" data-slide-to="3"></li>
                         <li data-target="#myCarousel" data-slide-to="4"></li>
                         <li data-target="#myCarousel" data-slide-to="5"></li> --}}
                     </ol>
@@ -225,8 +225,8 @@
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel4" data-slide-to="1"></li>
-                        {{-- <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                         <li data-target="#myCarousel4" data-slide-to="2"></li>
+                        {{--<li data-target="#myCarousel" data-slide-to="3"></li>
                         <li data-target="#myCarousel" data-slide-to="4"></li>
                         <li data-target="#myCarousel" data-slide-to="5"></li> --}}
                     </ol>
@@ -338,11 +338,12 @@
             </div>
             <div class="col-xs-12 col-md-6 style-div">
 
-                <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+                <div id="myCarousel6" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel4" data-slide-to="1"></li>
+                        <li data-target="#myCarousel6" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel6" data-slide-to="1"></li>
+                        <li data-target="#myCarousel6" data-slide-to="2"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -391,11 +392,13 @@
             </div>
             <div class="col-xs-12 col-md-6 style-div" style="float: {{ $dir_div }}">
 
-                <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+                <div id="myCarousel7" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel5" data-slide-to="1"></li>
+                        <li data-target="#myCarousel7" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel7" data-slide-to="1"></li>
+                        <li data-target="#myCarousel7" data-slide-to="2"></li>
+                        <li data-target="#myCarousel7" data-slide-to="3"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
